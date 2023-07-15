@@ -10,7 +10,6 @@ const Footer = () => {
                 <p className="text-sm text-gray-500">
                     &copy; {currentYear} Jami Infante
                 </p>
-                <p className="text-sm text-gray-500">Made with ❤️</p>
                 <div className="flex mt-2 lg:mt-0">
                     <a
                         href="https://www.linkedin.com/"

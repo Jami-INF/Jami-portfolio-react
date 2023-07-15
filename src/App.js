@@ -1,7 +1,7 @@
 import './App.css';
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import GoTop from "./components/GoTop";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import GoTop from "./components/layout/GoTop";
 
 import {
     BrowserRouter as Router,
@@ -30,6 +30,7 @@ function App() {
                   <Route path="*" element={<Navigate to="/"/>} />
               </Routes>
               <Footer />
+
           </div>
       </Router>
    );
