@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Jami-portfolio-react/static/css/main.710265ca.css",
+    "main.js": "/Jami-portfolio-react/static/js/main.0c7461ba.js",
+    "static/js/787.43c689b4.chunk.js": "/Jami-portfolio-react/static/js/787.43c689b4.chunk.js",
+    "static/media/logo.png": "/Jami-portfolio-react/static/media/logo.b883f68d723494f56d21.png",
+    "index.html": "/Jami-portfolio-react/index.html",
+    "main.710265ca.css.map": "/Jami-portfolio-react/static/css/main.710265ca.css.map",
+    "main.0c7461ba.js.map": "/Jami-portfolio-react/static/js/main.0c7461ba.js.map",
+    "787.43c689b4.chunk.js.map": "/Jami-portfolio-react/static/js/787.43c689b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.710265ca.css",
+    "static/js/main.0c7461ba.js"
+  ]
+}
