@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import GoTop from "./components/layout/GoTop";
 import './App.css';
 
 import {
@@ -25,7 +24,6 @@ function App() {
               <Navbar />
               <Particle/>
 
-              <GoTop />
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/projects" element={<Projects />} />
