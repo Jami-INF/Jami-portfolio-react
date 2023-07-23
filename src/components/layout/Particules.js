@@ -45,7 +45,7 @@ const Particle = () => {
                         type: "circle",
                     },
                     opacity: {
-                        value: 0.2,
+                        value: 0.4,
                     },
                     size: {
                         value: 3,

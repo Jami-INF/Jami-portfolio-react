@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import Experiences from "./components/Experiences";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Particle from "./components/layout/Particules";
 
@@ -27,7 +27,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/projects" element={<Projects />} />
-                  <Route path="/experiences" element={<Experiences />} />
+                  <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="*" element={<Navigate to="/"/>} />
               </Routes>

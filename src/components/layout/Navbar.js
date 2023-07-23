@@ -66,25 +66,19 @@ const NavBar = () => {
                     </button>
                 </div>
 
-                {/* Desktop Menu */}
+                {/* Menu ordinateur */}
                 <nav className="hidden lg:flex space-x-4">
                     <Link to="/" className="text-white flex items-center hover:text-gray-300">
                         <AiOutlineHome style={{marginRight: "5px"}} />
                         Accueil
                     </Link>
-                    <a
-                        href="https://github.com/Jami-INF"
-                        className="text-white flex items-center hover:text-gray-300"
-                    >
-                        <CgGitFork style={{marginRight: "5px"}} />
-                        Github
-                    </a>
+
                     <Link
-                        to="/experiences"
+                        to="/about"
                         className="text-white flex items-center hover:text-gray-300"
                     >
                         <AiOutlineFundProjectionScreen style={{marginRight: "5px"}} />
-                        Expériences
+                        À propos
                     </Link>
                     <Link to="/projects" className="text-white flex items-center hover:text-gray-300">
                         <AiOutlineCoffee style={{marginRight: "5px"}} />
@@ -94,10 +88,17 @@ const NavBar = () => {
                         <AiOutlineMessage style={{marginRight: "5px"}} />
                         Contact
                     </Link>
+                    <a
+                        href="https://github.com/Jami-INF"
+                        className="text-white flex items-center hover:text-gray-300"
+                    >
+                        <CgGitFork style={{marginRight: "5px"}} />
+                        Github
+                    </a>
                     <Switcher />
                 </nav>
 
-                {/* Mobile Menu Overlay */}
+                {/* Menu mobile */}
                 {isMobileMenuOpen && (
                     <div
                         className={`fixed top-0 left-0 right-0 bg-gray-900 bg-opacity-90 ${
@@ -112,19 +113,13 @@ const NavBar = () => {
                             >
                                 Accueil
                             </Link>
-                            <a
-                                href="https://github.com/Jami-INF"
-                                className="text-white text-center py-4 hover:text-gray-300"
-                                onClick={toggleMobileMenu}
-                            >
-                                Github
-                            </a>
+
                             <Link
-                                to="/experiences"
+                                to="/about"
                                 className="text-white text-center py-4 hover:text-gray-300"
                                 onClick={toggleMobileMenu}
                             >
-                                Expériences
+                                À propos
                             </Link>
                             <Link
                                 to="/projects"
@@ -140,6 +135,13 @@ const NavBar = () => {
                             >
                                 Contact
                             </Link>
+                            <a
+                                href="https://github.com/Jami-INF"
+                                className="text-white text-center py-4 hover:text-gray-300"
+                                onClick={toggleMobileMenu}
+                            >
+                                Github
+                            </a>
                             <div className="flex justify-center py-4">
                                 <Switcher />
                             </div>
