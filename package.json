@@ -1,7 +1,7 @@
 {
   "name": "jami-portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://jami-inf.github.io/Jami-portfolio-react",
+  "homepage": "https://jami-inf.github.io/Jami-portfolio-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,6 +14,8 @@
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "react-toggle-dark-mode": "^1.1.1",
+    "react-tsparticles": "^2.11.0",
+    "tsparticles": "^2.11.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

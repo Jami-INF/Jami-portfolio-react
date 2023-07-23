@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
     AiOutlineHome,
-    AiOutlineUser,
     AiOutlineFundProjectionScreen,
     AiOutlineCoffee,
-    AiOutlineMessage, AiOutlineClose,
+    AiOutlineMessage
 } from 'react-icons/ai';
 import { CgGitFork } from 'react-icons/cg';
 import logo from '../../assets/logo.png';
@@ -70,33 +69,29 @@ const NavBar = () => {
                 {/* Desktop Menu */}
                 <nav className="hidden lg:flex space-x-4">
                     <Link to="/" className="text-white flex items-center hover:text-gray-300">
-                        <AiOutlineHome style={{}} />
+                        <AiOutlineHome style={{marginRight: "5px"}} />
                         Accueil
                     </Link>
                     <a
                         href="https://github.com/Jami-INF"
                         className="text-white flex items-center hover:text-gray-300"
                     >
-                        <CgGitFork style={{}} />
+                        <CgGitFork style={{marginRight: "5px"}} />
                         Github
                     </a>
-                    <Link to="/about" className="text-white flex items-center hover:text-gray-300">
-                        <AiOutlineUser style={{}} />
-                        À propos
-                    </Link>
                     <Link
                         to="/experiences"
                         className="text-white flex items-center hover:text-gray-300"
                     >
-                        <AiOutlineFundProjectionScreen style={{}} />
+                        <AiOutlineFundProjectionScreen style={{marginRight: "5px"}} />
                         Expériences
                     </Link>
                     <Link to="/projects" className="text-white flex items-center hover:text-gray-300">
-                        <AiOutlineCoffee style={{}} />
+                        <AiOutlineCoffee style={{marginRight: "5px"}} />
                         Projets
                     </Link>
                     <Link to="/contact" className="text-white flex items-center hover:text-gray-300">
-                        <AiOutlineMessage style={{}} />
+                        <AiOutlineMessage style={{marginRight: "5px"}} />
                         Contact
                     </Link>
                     <Switcher />
@@ -124,13 +119,6 @@ const NavBar = () => {
                             >
                                 Github
                             </a>
-                            <Link
-                                to="/about"
-                                className="text-white text-center py-4 hover:text-gray-300"
-                                onClick={toggleMobileMenu}
-                            >
-                                À propos
-                            </Link>
                             <Link
                                 to="/experiences"
                                 className="text-white text-center py-4 hover:text-gray-300"

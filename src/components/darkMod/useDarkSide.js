@@ -9,6 +9,8 @@ export default function useDarkSide() {
         root.classList.remove(colorTheme);
         root.classList.add(theme);
         localStorage.setItem('theme', theme);
+        window.postMessage({ theme: theme }, "*");
+
     }, [theme, colorTheme]);
 
     return [colorTheme, setTheme]
