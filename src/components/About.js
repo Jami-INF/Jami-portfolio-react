@@ -1,10 +1,16 @@
 import React from "react";
+import TechnologySection from "./layout/TechnologySection";
 
 const About = () => {
     return (
         <div>
-            <div className="mb-40 mt-40 text-left  md:mx-60">
-                <h2 className="text-center text-black dark:text-white mb-10 text-6xl">Études</h2>
+            <div className="mb-32 mt-40">
+                <TechnologySection/>
+
+            </div>
+
+            <div className="mb-32 text-left  md:mx-60">
+                <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">Études</h2>
                 <ol className="m-20 relative border-l border-gray-200 dark:border-gray-700">
                     <li className="ml-4">
                         <div

@@ -1,6 +1,7 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
-const CardProject = ({ title, description, imagePath, direction }) => {
+const CardProject = ({ title, description, imagePath,projectURL, direction }) => {
     const isImageOnLeft = direction === "left";
     return (
         <div className="p-4 mb-4 text-center">
@@ -13,9 +14,9 @@ const CardProject = ({ title, description, imagePath, direction }) => {
                 <div className="flex flex-col p-6">
                     <h2 className="text-xl text-black dark:text-white font-semibold mb-2">{title}</h2>
                     <p className="indent-4 text-black dark:text-white mb-8 text-justify">{description}</p>
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+                    <Link to={projectURL} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
                         Voir le projet
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
