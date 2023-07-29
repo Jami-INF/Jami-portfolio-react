@@ -33,7 +33,7 @@ const ParticulesConfig = {
         quantity: 1
       },
       repulse: {
-        distance: 200,
+        distance: 20,
         duration: 0.4
       }
     }
