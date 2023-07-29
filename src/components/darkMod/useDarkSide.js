@@ -8,8 +8,11 @@ export default function useDarkSide() {
         const root = window.document.documentElement;
         root.classList.remove(colorTheme);
         root.classList.add(theme);
-        localStorage.setItem('theme', theme);
-        window.postMessage({ theme: theme }, "*");
+        if(theme !== localStorage.theme){
+            window.postMessage({ theme: theme }, "*");
+            localStorage.setItem('theme', theme);
+        }
+
 
     }, [theme, colorTheme]);
 
