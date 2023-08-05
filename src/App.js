@@ -9,33 +9,32 @@ import {
     Routes,
     Navigate
 } from "react-router-dom";
-import Projects from "./components/Projects";
+import Projects from "./components/project/Projects";
 import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 import Particle from "./components/layout/Particules";
-
+import ScrollToTop from "./components/ScrollToTop";
+import React from "react";
 
 function App() {
-  return (
-      <Router>
-          <div className="App">
-
-              <Navbar />
-              <Particle/>
-
-              <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/projects" element={<Projects />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/contact" element={<Contact />} />
-                  <Route path="*" element={<Navigate to="/"/>} />
-              </Routes>
-              <Footer />
-
-          </div>
-      </Router>
-   );
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
+                <Particle/>
+                <ScrollToTop />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="*" element={<Navigate to="/"/>} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
+    );
 }
 
 export default App;

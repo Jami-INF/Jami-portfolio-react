@@ -6,6 +6,8 @@ import {DiCss3} from "react-icons/di";
 import {SiMysql, SiPostman, SiSpring} from "react-icons/si";
 import {BsGit} from "react-icons/bs";
 import {TbBrandVscode} from "react-icons/tb";
+import {Fade} from "react-reveal";
+
 
 const TechnologySection = () => {
     const technologies = [
@@ -32,10 +34,12 @@ const TechnologySection = () => {
     ];
 
     return (
-        <div className="container mx-auto py-12 px-4 dark:text-white">
-            <h2 className="text-3xl font-bold text-center mb-16 text-gray-800 dark:text-white">Technologies</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4">
-                {technologies.map((tech, index) => (
+
+    <div className="container mx-auto py-12 px-4 dark:text-white">
+        <h2 className="text-3xl font-bold text-center mb-16 text-gray-800 dark:text-white">Technologies</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4">
+            {technologies.map((tech, index) => (
+                <Fade>
                     <div key={index} className="text-gray-800 dark:text-white p-4 bg-white dark:bg-gray-900 dark:bg-opacity-50 backdrop-blur-sm bg-opacity-40 rounded-lg text-center">
                         <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">{tech.label}</h3>
                         <div className="flex justify-center mb-4">
@@ -47,9 +51,10 @@ const TechnologySection = () => {
                         </div>
                         <p className="text-sm text-gray-800 dark:text-white">{tech.description}</p>
                     </div>
-                ))}
-            </div>
+                </Fade>
+            ))}
         </div>
+    </div>
     );
 };
 

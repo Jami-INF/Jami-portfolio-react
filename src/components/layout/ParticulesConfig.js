@@ -40,7 +40,7 @@ const ParticulesConfig = {
   },
   particles: {
     color: {
-      value: "#777"
+      value: "#ffffff"
     },
     collisions: {
       enable: true
@@ -71,42 +71,6 @@ const ParticulesConfig = {
       value: 5
     }
   },
-  themes: [
-    {
-      name: "light",
-      default: {
-        value: true,
-        mode: "light"
-      },
-      options: {
-        background: {
-          color: "#CFCFCF"
-        },
-        particles: {
-          color: {
-            value: "#000000"
-          }
-        }
-      }
-    },
-    {
-      name: "dark",
-      default: {
-        value: true,
-        mode: "dark"
-      },
-      options: {
-        background: {
-          color: "1f2937"
-        },
-        particles: {
-          color: {
-            value: "#ffffff"
-          }
-        }
-      }
-    }
-  ],
   detectRetina: true
 };
 export default ParticulesConfig;
