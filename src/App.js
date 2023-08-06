@@ -10,7 +10,7 @@ import {
     Navigate
 } from "react-router-dom";
 import Projects from "./components/project/Projects";
-import Home from "./components/Home";
+import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Particle from "./components/layout/Particules";

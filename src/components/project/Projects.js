@@ -41,7 +41,7 @@ const Projects = () => {
                     stack="JavaScript, HTML, CSS"
                     imagePath="https://res.cloudinary.com/dydmsj2hs/image/upload/v1690230852/Capture_d_%C3%A9cran_2023-07-24_223405_vfkc5n.jpg"
                     projectURL="https://jami-inf.github.io/demineur_JS/"
-                    direction="right"
+                    direction="left"
                 />
             </div>
             <div className="">
@@ -51,7 +51,7 @@ const Projects = () => {
                     stack="Python, OpenCV, TensorFlow, Keras"
                     imagePath="https://miro.medium.com/v2/resize:fit:1400/1*8gmgaAkFdI-9OHY5cA93xQ.png"
                     projectURL=""
-                    direction="left"
+                    direction="right"
                 />
             </div>
         </div>
