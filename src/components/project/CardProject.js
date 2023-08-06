@@ -17,7 +17,7 @@ const CardProject = ({ title, description, stack, imagePath, projectURL, directi
                     <div className="flex flex-col p-6">
                         <h2 className="text-xl text-black dark:text-white font-semibold mb-2">{title}</h2>
                         <p className="indent-4 text-black dark:text-white mb-8 text-justify">{description}</p>
-                        <div className="mb-8 justify-left">
+                        <div className="mb-8 justify-left flex flex-wrap">
                             {stack.split(",").map((tech, index) => (
                                 <span key={index} className="border-2 border-blue-500 text-black dark:text-white font-bold py-2 px-4 rounded-full text-sm mr-2 mb-2">
                                     {tech}
