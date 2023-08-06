@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Fade } from "react-reveal"; // Importez l'animation Fade
+import { Fade } from "react-awesome-reveal";
 
 const CardProject = ({ title, description, stack, imagePath, projectURL, direction }) => {
     const isImageOnLeft = direction === "left";
 
     return (
         <div className="p-4 mb-4 text-center">
-            <Fade left={isImageOnLeft} right={!isImageOnLeft}> {/* Utilisez Fade avec les propriétés left ou right en fonction de la direction */}
+            <Fade left={isImageOnLeft} right={!isImageOnLeft}>
                 <div className={`bg-white dark:bg-gray-900 dark:backdrop-blur-sm dark:bg-opacity-50 backdrop-blur-sm bg-opacity-40 rounded-lg flex items-center justify-between flex-col md:flex-row ${isImageOnLeft ? "md:flex-row-reverse" : "md:flex-row"}`}>
                     <img
                         src={imagePath}

@@ -1,6 +1,6 @@
 import React from "react";
 import TechnologySection from "./TechnologySection";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 
 const About = () => {
     return (

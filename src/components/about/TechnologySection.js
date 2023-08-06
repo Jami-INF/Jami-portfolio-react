@@ -6,7 +6,7 @@ import {DiCss3} from "react-icons/di";
 import {SiMysql, SiPostman, SiSpring} from "react-icons/si";
 import {BsGit} from "react-icons/bs";
 import {TbBrandVscode} from "react-icons/tb";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 
 
 const TechnologySection = () => {

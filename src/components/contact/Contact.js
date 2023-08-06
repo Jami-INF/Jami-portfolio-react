@@ -1,13 +1,11 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import FranceMap from "./FranceMap";
-import {Fade} from "react-reveal";
 
 const Contact = () => {
     return (
         <div>
             <div className="w-full 2xl:px-32 lg:px-12 px-5 py-24 mx-auto flex flex-wrap items-center justify-center ">
-                <Fade left>
 
                     <div className="md:w-4/12 h-min bg-white dark:bg-gray-900 dark:bg-opacity-50 backdrop-blur-sm bg-opacity-40 rounded-lg flex flex-col w-full mt-10">
                         <div className="w-full h-full p-8 ">
@@ -47,12 +45,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
-                <Fade>
                     <div className="md:w-7/12 bg-white dark:bg-gray-900 dark:bg-opacity-50 backdrop-blur-sm bg-opacity-40 rounded-lg flex flex-col md:ml-auto w-full mt-10">
                         <FranceMap />
                     </div>
-                </Fade>
 
             </div>
         </div>
