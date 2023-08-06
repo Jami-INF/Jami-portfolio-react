@@ -9,15 +9,11 @@ const Particules = (props) => {
         await loadFull(engine);
     }, []);
     return (
-        <div id="particle-background">
-            <div className="background">
-                <Particles
-                    id="tsparticles"
-                    init={particlesInit}
-                    options={ParticlesConfig}
-                />
-            </div>
-        </div>
+        <Particles
+            id="tsparticles"
+            init={particlesInit}
+            options={ParticlesConfig}
+        />
     );
 };
 export default Particules;

@@ -21,7 +21,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <Navbar />
+                <Navbar/>
                 <Particle/>
                 <ScrollToTop />
                 <Routes>
