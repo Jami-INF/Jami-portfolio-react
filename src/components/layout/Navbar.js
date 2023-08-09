@@ -9,6 +9,7 @@ import {
 import { CgGitFork } from 'react-icons/cg';
 import logo from '../../assets/logo.png';
 import Switcher from '../darkMod/Switcher';
+import {MdEmojiPeople, MdOutlineWorkHistory} from "react-icons/md";
 
 const NavBar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -77,8 +78,15 @@ const NavBar = () => {
                         to="/about"
                         className="text-white flex items-center hover:text-gray-300"
                     >
-                        <AiOutlineFundProjectionScreen style={{marginRight: "5px"}} />
+                        <MdEmojiPeople style={{marginRight: "5px"}} />
                         À propos
+                    </Link>
+                    <Link
+                        to="/experiences"
+                        className="text-white flex items-center hover:text-gray-300"
+                    >
+                        <MdOutlineWorkHistory style={{marginRight: "5px"}} />
+                        Parcours
                     </Link>
                     <Link to="/projects" className="text-white flex items-center hover:text-gray-300">
                         <AiOutlineCoffee style={{marginRight: "5px"}} />
@@ -120,6 +128,13 @@ const NavBar = () => {
                                 onClick={toggleMobileMenu}
                             >
                                 À propos
+                            </Link>
+                            <Link
+                                to="/experiences"
+                                className="text-white text-center py-4 hover:text-gray-300"
+                                onClick={toggleMobileMenu}
+                            >
+                                Parcours
                             </Link>
                             <Link
                                 to="/projects"

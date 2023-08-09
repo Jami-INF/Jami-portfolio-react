@@ -17,7 +17,7 @@ const Home = () => {
                             </h2>
                         </Fade>
                         <Fade left>
-                            <h2 className="text-left text-black dark:text-white mt-20 text-4xl">Je suis <strong className="text-slate-700 dark:text-slate-400">développeur WEB</strong></h2>
+                            <h2 className="text-left text-black dark:text-white mt-20 text-4xl">Je suis <strong className="text-slate-700 dark:text-slate-400">développeur WEB full stack</strong></h2>
                         </Fade>
                         <Fade right>
                             <div className="flex justify-center mt-20">

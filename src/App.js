@@ -16,6 +16,7 @@ import Contact from "./components/contact/Contact";
 import Particle from "./components/layout/Particules";
 import ScrollToTop from "./components/ScrollToTop";
 import React from "react";
+import Experiences from "./components/experiences/Experiences";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/experiences" element={<Experiences />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<Navigate to="/"/>} />

@@ -2,11 +2,12 @@ import React from "react";
 import {AiOutlineHtml5, AiFillGithub} from 'react-icons/ai';
 import {FaJava, FaReact, FaNodeJs, FaDatabase, FaPhp } from 'react-icons/fa';
 import {BiLogoJavascript, BiLogoPython, BiLogoTailwindCss} from "react-icons/bi";
-import {DiCss3} from "react-icons/di";
+import {DiCss3, DiDocker} from "react-icons/di";
 import {SiMysql, SiPostman, SiSpring} from "react-icons/si";
 import {BsGit} from "react-icons/bs";
 import {TbBrandVscode} from "react-icons/tb";
 import {Fade} from "react-awesome-reveal";
+import {GrDocker} from "react-icons/gr";
 
 
 const TechnologySection = () => {
@@ -14,7 +15,7 @@ const TechnologySection = () => {
         {
             label: "Languages",
             icons: [<FaPhp />, <FaJava />, <BiLogoJavascript />, <BiLogoPython />],
-            description: "Mes langages de programmation préférés sont PHP, JavaScript, Java et Python. J'ai également de l'expérience avec C, C#, Python et bien d'autres.",
+            description: "Mes langages de programmation préférés sont PHP, JavaScript, Java et Python. J'ai également de l'expérience avec C, C# et bien d'autres.",
         },
         {
             label: "Front-end",
@@ -24,12 +25,12 @@ const TechnologySection = () => {
         {
             label: "Back-end",
             icons: [<SiMysql />, <FaNodeJs />, <FaDatabase />, <SiSpring />],
-            description: "Mes technologies back-end préférées sont Node.js, Express, MongoDB et MySQL. J'ai également de l'expérience avec PHP, Laravel, et bien d'autres.",
+            description: "Mes technologies back-end préférées sont Node.js, Express, MongoDB et MySQL. J'ai également de l'expérience avec NOSQL, Symfony, et bien d'autres.",
         },
         {
             label: "Outils",
-            icons: [<BsGit />, <TbBrandVscode />, <SiPostman />, <AiFillGithub />],
-            description: "J'utilise Git, GitHub, VS Code, Postman, et bien d'autres outils pour créer des applications.",
+            icons: [<GrDocker />, <BsGit />, <TbBrandVscode />, <SiPostman />],
+            description: "J'utilise Docker, Git, GitHub, VS Code, Postman, et bien d'autres outils pour créer des applications.",
         },
     ];
 
