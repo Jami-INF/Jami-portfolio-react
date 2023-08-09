@@ -10,7 +10,7 @@ const Experiences = () => {
             <div className="mb-24 text-left mt-40 md:mx-60">
                 <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">Études</h2>
                 <Fade>
-                    <ol className="m-20 relative border-l border-gray-200 dark:border-gray-700">
+                    <ol className="m-2 relative border-l border-gray-200 dark:border-gray-700">
                         <Study
                             date="2022-2023"
                             title="Licence pro Application WEB"

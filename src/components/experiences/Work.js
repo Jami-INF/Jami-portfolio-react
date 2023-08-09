@@ -2,7 +2,7 @@ import React from 'react';
 
 const Work = ({ logoSrc, title, date, description }) => {
     return (
-        <li className="m-20">
+        <li className="m-4">
             <div className="flex items-center mb-2">
                 <div className="flex-shrink-0">
                     <img className="w-20" src={logoSrc} alt="" />
