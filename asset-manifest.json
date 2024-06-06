@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/Jami-portfolio-react/static/css/main.958a0e0b.css",
-    "main.js": "/Jami-portfolio-react/static/js/main.cbd2521f.js",
-    "static/js/787.43c689b4.chunk.js": "/Jami-portfolio-react/static/js/787.43c689b4.chunk.js",
-    "static/media/logo.png": "/Jami-portfolio-react/static/media/logo.b883f68d723494f56d21.png",
-    "index.html": "/Jami-portfolio-react/index.html",
-    "main.958a0e0b.css.map": "/Jami-portfolio-react/static/css/main.958a0e0b.css.map",
-    "main.cbd2521f.js.map": "/Jami-portfolio-react/static/js/main.cbd2521f.js.map",
-    "787.43c689b4.chunk.js.map": "/Jami-portfolio-react/static/js/787.43c689b4.chunk.js.map"
+    "main.css": "./static/css/main.7ec851a3.css",
+    "main.js": "./static/js/main.647ae327.js",
+    "static/js/787.43c689b4.chunk.js": "./static/js/787.43c689b4.chunk.js",
+    "static/media/JamRacing.jpg": "./static/media/JamRacing.13afe95aa942ecc1981d.jpg",
+    "static/media/MEALGENIUS.png": "./static/media/MEALGENIUS.00fc2d6218a2bdf6cafb.png",
+    "static/media/ia.png": "./static/media/ia.4183c0644f8a80057d54.png",
+    "static/media/basic.jpg": "./static/media/basic.2c218834a2dd7e30d862.jpg",
+    "static/media/economax.png": "./static/media/economax.5bd6241a8d37ee5d1ed3.png",
+    "static/media/mecanique.jpg": "./static/media/mecanique.8b2159e46fa69033f90b.jpg",
+    "static/media/demineur.jpg": "./static/media/demineur.8e9d743480f676a55d5d.jpg",
+    "static/media/EFF-logo.png": "./static/media/EFF-logo.8eafebbb8122f9fa33ed.png",
+    "static/media/services.jpg": "./static/media/services.13b9b97372ae0142c101.jpg",
+    "static/media/atelier.avif": "./static/media/atelier.c1d90bf18e8c30393a38.avif",
+    "static/media/logo.png": "./static/media/logo.b883f68d723494f56d21.png",
+    "static/media/NT-logo.png": "./static/media/NT-logo.08eda2167e81de923f47.png",
+    "index.html": "./index.html",
+    "main.7ec851a3.css.map": "./static/css/main.7ec851a3.css.map",
+    "main.647ae327.js.map": "./static/js/main.647ae327.js.map",
+    "787.43c689b4.chunk.js.map": "./static/js/787.43c689b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.958a0e0b.css",
-    "static/js/main.cbd2521f.js"
+    "static/css/main.7ec851a3.css",
+    "static/js/main.647ae327.js"
   ]
 }
